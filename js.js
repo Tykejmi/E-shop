@@ -14,13 +14,13 @@ const DROPDOWN_BTN = document.querySelector("[dropdown-btn]")
 const DROPDOWN_MENU = document.querySelector("[dropdown-menu]")
 const TRIANGLE =  document.querySelector("[triangle]")
 const BODY = document.querySelector("body")
-
+const DROPDOWN_CHILDREN = document.querySelector("[dropdown-menu]").childNodes
 
 
 MODAL_SHOW_BTN.addEventListener("click", () => {
     MODAL_BODY.classList.add("modal-body-show")
     MODAL.classList.add("modal-show")
-    BODY.style.overflow = "hidden";
+    BODY.style.overflowY = "hidden";
 })
 
 // Tohle dát do funkce kterou pásnout do MODAL EVENTU 
@@ -44,8 +44,7 @@ MODAL.addEventListener("click",(e)=>{
 CART_MODAL_SHOW_BTN.addEventListener("click",()=>{
     CART_MODAL.classList.add("cart-modal-show")
     CART_MODAL_BODY.classList.add("cart-modal-body-show")
-    BODY.style.overflow = "hidden";
-
+    BODY.style.overflowY = "hidden";
 })
 
 // CART_MODAL_SHOW_BTN.addEventListener("click",()=>{
@@ -57,7 +56,8 @@ CART_MODAL_SHOW_BTN.addEventListener("click",()=>{
 function cartModalremove(){
     CART_MODAL.classList.remove("cart-modal-show")
     CART_MODAL_BODY.classList.remove("cart-modal-body-show")
-    // BODY.style.overflow = "auto";
+    BODY.style.overflowY = "visible";
+
 }
 
 CART_MODAL.addEventListener("click",(e)=>{
@@ -74,3 +74,4 @@ DROPDOWN_BTN.addEventListener("click",()=>{
     DROPDOWN_MENU.classList.toggle("dropdown-menu-show")
     TRIANGLE.classList.toggle("triangle-active")
 })
+
