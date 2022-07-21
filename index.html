@@ -5,31 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Definitly not a Monogram</title>
-    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <div class="content-wrap">
       <nav>
+
+
+
         <div class="logo">
           <a href="#">
             <div class="logo-wrap">
-              <img src="cat-logo.png" class="nav-img" alt="">
-               <p>RENT A PET CO.</p>
+              <img src="imgs/cat-logo.png" class="nav-img" alt="cat-logo">
+               <p>RENT A PET Co.</p>
             </div>
-            
-          </a>
+          </a>  
         </div>
+
+
+
+
+        
         <div class="nav-links">
           <ul>
             <li class="nav-link hidden"><a href="#">how it works</a></li>
-            <li class="nav-link dropdown hidden"><button class="dropdown-wrap" dropdown-btn>workflows <span  triangle class="triangle"></span></button> 
+            <li class="nav-link dropdown hidden"><button type="button"  aria-label="open dropdown menu"class="dropdown-wrap" dropdown-btn>rent plans <span  triangle class="triangle"></span></button> 
               <div class="dropdown-menu" dropdown-menu>
                 <ul>
-                  <li><a href="#">Photo console</a></li>
-                  <li><a href="#">Video console</a></li>
-                  <li><a href="#">Audio console</a></li>
-                  <li><a href="#">Virtual production</a></li>
-                  <li><a href="#">Mini console</a></li>
+                  <li><a href="#">Plan mini</a></li>
+                  <li><a href="#">Weekly plan</a></li>
+                  <li><a href="#">Monthly plan</a></li>
+                  <li><a href="#">Yearly plan</a></li>
+                  <li><a href="#">Life long plan</a></li>
                 </ul>
             </div>
           </li>
@@ -37,12 +44,11 @@
             <li class="nav-link hidden"><a href="#">blog</a></li>
             <li class="nav-link hidden"><a href="#">support</a></li>
             <li class="nav-link hidden"><a href="#">shop</a></li>
-            <li class="nav-link hamburger-li" modal-show-btn><button>
-            <div class="hamburger">
-
-              </div>
-            </button></li>
-            <li class="nav-link nav-img" cart-modal-show-btn><button><img src="shopping-bag-regular-24.png"></button> </li>
+            <li class="nav-link hamburger-li" modal-show-btn><button type="button" aria-label="open link menu">
+            <div class="hamburger"></div>
+            </button>
+          </li>
+            <li class="nav-link nav-img" cart-modal-show-btn><button type="button" aria-label="open shop menu"><img src="imgs/shopping-bag-regular-24.png"></button> </li>
           </ul>
         </div>
       </nav>
@@ -62,35 +68,35 @@
 
      
 
-      <main id="main">
+      <main>
         <div class="products-grid">
 
           <section class="product">
             <div class="product-img">
-                <img src="cat1.jpg" alt="" />
-                <img src="cat2.jpg" alt="" />
+                <img src="imgs/cat1.jpg" alt="cat" />
+                <img src="imgs/cat2.jpg" alt="cat" />
             </div>
             <div class="description">
               <div class="description-wrap">
-                <h3 class="description-heading">British shorthair </h3>
+                <h3 class="description-heading">Shorthair white </h3>
                 <p class="description-price">$20/Month</p>
-                <button class="buy-button">Good natured with relativly calm temperament</button>
+                <button type="button" class="buy-button" aria-label="buy this article">Rent now</button>
               </div>
-              <p class="description-p">Ideal for everyday shortcut. Adaptable for any workflow</p>
+              <p class="description-p">Good natured with relativly calm temperament</p>
             </div>
             <p class="stock">In Stock</p>
           </section>
 
           <section class="product">
             <div class="product-img">
-              <img src="cat4.jpg" alt="" />
-              <img src="cat3.jpg" alt="" />
+              <img src="imgs/cat4.jpg" alt="cat" />
+              <img src="imgs/cat3.jpg" alt="cat" />
           </div>
             <div class="description">
               <div class="description-wrap">
-                <h3 class="description-heading">American shorthair </h3>
+                <h3 class="description-heading">Shorthair black </h3>
                 <p class="description-price">$15/Month</p>
-                <button class="buy-button">Rent now</button>
+                <button type="button" class="buy-button" aria-label="buy this article">Rent now</button>
               </div>
               <p class="description-p">Sociable, easily trained and adapted to children</p>
             </div>
@@ -99,14 +105,14 @@
 
           <section class="product">
             <div class="product-img">
-              <img src="parrot2.jpg" alt="" />
-              <img src="parrot1.jpg" alt="" />
+              <img src="imgs/parrot2.jpg" alt="parrot" />
+              <img src="imgs/parrot1.jpg" alt="parrot" />
           </div>
             <div class="description">
               <div class="description-wrap">
                 <h3 class="description-heading">Ara parrot </h3>
                 <p class="description-price">$40/Month</p>
-                <button class="buy-button">Rent now</button>
+                <button type="button" class="buy-button" aria-label="buy this article">Rent now</button>
 
               </div>
               <p class="description-p">Playful, friendly but difficult maintenance</p>
@@ -116,14 +122,14 @@
 
           <section class="product">
             <div class="product-img">
-              <img src="dog2.jpg" alt="" />
-              <img src="dog1.jpg" alt="" />
+              <img src="imgs/dog2.jpg" alt="dog" />
+              <img src="imgs/dog1.jpg" alt="dog" />
           </div>
             <div class="description">
               <div class="description-wrap">
                 <h3 class="description-heading">Welsh Corgi</h3>
                 <p class="description-price">$20/Month</p>
-                <button class="buy-button">Rent now</button>
+                <button type="button" class="buy-button" aria-label="buy this article">Rent now</button>
 
               </div>
               <p class="description-p">Inteligent, adaptable and loving with the whole family,</p>
@@ -135,23 +141,21 @@
         
           <div class="products-divide">
             <div class="products-divide-overlay">
-
-           
-            <h2>Dont't forget the necessities</h2>
+            <h2>Don't forget the necessities</h2>
             <p>The'll love it!</p>
           </div>
           </div>
           <div class="accessories-grid">
             <section class="product">
               <div class="product-img">
-                  <img src="melon.jpg" alt="" />
-                  <img src="melon1.jpg" alt="" />
+                  <img src="imgs/melon.jpg" alt="cantaloupe" />
+                  <img src="imgs/melon1.jpg" alt="cantaloupe" />
               </div>
               <div class="description">
                 <div class="description-wrap">
-                  <h3 class="description-heading"> cantaloupe for dogs </h3>
+                  <h3 class="description-heading"> dog cantaloupe</h3>
                   <p class="description-price">$30</p>
-                  <button class="buy-button">Buy now</button>
+                  <button type="button" class="buy-button" aria-label="buy this article">Buy now</button>
                 </div>
                 <p class="description-p"></p>
               </div>
@@ -160,14 +164,14 @@
 
             <section class="product">
               <div class="product-img">
-                  <img src="yarn.jpg" alt="" />
-                  <img src="yarn1.jpg" alt="" />
+                  <img src="imgs/yarn.jpg" alt="yarn" />
+                  <img src="imgs/yarn1.jpg" alt="yarn" />
               </div>
               <div class="description">
                 <div class="description-wrap">
                   <h3 class="description-heading">Yarn for cats</h3>
                   <p class="description-price">$15</p>
-                  <button class="buy-button">Buy now</button>
+                  <button type="button" class="buy-button" aria-label="buy this article">Buy now</button>
                 </div>
                 <p class="description-p"></p>
               </div>
@@ -176,14 +180,14 @@
 
             <section class="product">
               <div class="product-img">
-                  <img src="ball.jpg" alt="" />
-                  <img src="ball2.jpg" alt="" />
+                  <img src="imgs/ball.jpg" alt="tennis ball" />
+                  <img src="imgs/ball2.jpg" alt="tennis ball" />
               </div>
               <div class="description">
                 <div class="description-wrap">
-                  <h3 class="description-heading">Tennis ball deluxe</h3>
+                  <h3 class="description-heading">Tennis ball</h3>
                   <p class="description-price">$70</p> 
-                  <button class="buy-button">Buy now</button>
+                  <button type="button" class="buy-button" aria-label="buy this article">Buy now</button>
                 </div>
                 <p class="description-p"></p>
               </div>
@@ -192,14 +196,14 @@
 
             <section class="product">
               <div class="product-img">
-                  <img src="mice1.jpg" alt="" />
-                  <img src="mice2.jpg" alt="" />
+                  <img src="imgs/mice1.jpg" alt="mouse" />
+                  <img src="imgs/mice2.jpg" alt="mouse" />
               </div>
               <div class="description">
                 <div class="description-wrap">
                   <h3 class="description-heading">Cat snack </h3>
                   <p class="description-price">$5</p>
-                  <button class="buy-button">Buy now</button>
+                  <button type="button" class="buy-button" aria-label="buy this article">Buy now</button>
                 </div>
                 <p class="description-p"></p>
               </div>
@@ -208,14 +212,14 @@
 
             <section class="product">
               <div class="product-img">
-                  <img src="cake1.jpg" alt="" />
-                  <img src="cake.jpg" alt="" />
+                  <img src="imgs/cake1.jpg" alt="cake plushie" />
+                  <img src="imgs/cake.jpg" alt="cake plushie" />
               </div>
               <div class="description">
                 <div class="description-wrap">
                   <h3 class="description-heading">Tasty plushie </h3>
                   <p class="description-price">$35</p>
-                  <button class="buy-button">Buy now</button>
+                  <button type="button" class="buy-button" aria-label="buy this article">Buy now</button>
                 </div>
                 <p class="description-p"></p>
               </div>
@@ -224,14 +228,14 @@
 
             <section class="product">
               <div class="product-img">
-                  <img src="plushie1.jpg" alt="" />
-                  <img src="plushie.jpg" alt="" />
+                  <img src="imgs/plushie1.jpg" alt="plushie" />
+                  <img src="imgs/plushie.jpg" alt="plushie" />
               </div>
               <div class="description">
                 <div class="description-wrap">
                   <h3 class="description-heading">Dog toy</h3>
                   <p class="description-price">$13</p>
-                  <button class="buy-button">Buy now</button>
+                  <button type="button" class="buy-button" aria-label="buy this article">Buy now</button>
                 </div>
                 <p class="description-p"></p>
               </div>
@@ -246,28 +250,28 @@
       <footer>
         <div class="subscription">
           <h3>Subcribe to us!</h3>
-          <p>Master producitivity with creative console and get all the latest monogram news</p>
+          <p>Learn all the latest Rent a pet Co. news!</p>
           <form action="">
             <input type="email" name="" id="" placeholder="Email Address">
-            <button type="submit">Submit</button>
+            <button type="submit" aria-label="sumbit email">Submit</button>
           </form>
           <ul class="socials">
-            <li> <img src="facebook-circle-logo-24.png" alt=""></li>
-            <li><img src="twitter-logo-24.png"></li>
-            <li><img src="instagram-logo-24.png"></li>
-            <li><img src="github-logo-24.png"></box-icon></li>
+            <li> <img src="imgs/facebook-circle-logo-24.png" alt="facebook logo"></li>
+            <li><img src="imgs/twitter-logo-24.png" alt="twitter logo"></li>
+            <li><img src="imgs/instagram-logo-24.png" alt="instagram logo"></li>
+            <li><img src="imgs/github-logo-24.png" alt="github logo"></box-icon></li>
           </ul>
         </div>
         <div class="adress footer-div">
-          <h3>monogram</h3>
+          <h3>Rent a pet Co.</h3>
+          <a href="#"> 
           <ul>
-            <a href="#"> 
-            <li>605 king st. w</li>
-            <li>suite 502</li>
-            <li> kitchner ON</li>
-            <li>Canada</li>
-          </a>
+            <li>Apartment 1901</li>
+            <li>Elliott Bay Towers</li>
+            <li> Seattle</li>
+            <li>Washington</li>
           </ul>
+        </a>
         
         </div>
         <div class="help footer-div">
@@ -311,37 +315,38 @@
             <div class="logo">
               <a href="#">
                 <div class="logo-wrap">
-                  <img src="cat-logo.png" class="nav-img" alt="">
-                  <p>RENT A PET CO.</p>
+                  <img src="imgs/cat-logo.png" class="nav-img" alt="cat logo">
+                  <p>RENT A PET Co.</p>
                 </div>
               
               </a>
             </div>
-            <button class="close-modal-btn" close-modal-btn>
-              <div class="hamburger-line"></div>
+            <button type="button" aria-label="close link menu" class="close-modal-btn" close-modal-btn>
+              <div class="closen-btn"></div>
             </button>
           </div>
           <ul>
+
             <li class="modal-link">
-              <a href="#">how it woks</a>
+              <a href="#">how it works</a>
             </li>
             <li class="modal-link">
-              <a href="#">how workflows</a>
+              <a href="#">Rent plans</a>
             </li>
             <li class="modal-link modal-sublink">
-              <a href="#">photo console</a>
+              <a href="#">Plan mini</a>
             </li>
             <li class="modal-link modal-sublink">
-              <a href="#">video console</a>
+              <a href="#">Weekly plan</a>
             </li>
             <li class="modal-link modal-sublink">
-              <a href="#">audio console</a>
+              <a href="#">Monthly plan</a>
             </li>
             <li class="modal-link modal-sublink">
-              <a href="#">virtual production</a>
+              <a href="#">Yearly plan</a>
             </li>
             <li class="modal-link modal-sublink">
-              <a href="#">mini console</a>
+              <a href="#">Life long plan</a>
             </li>
             <li class="modal-link">
               <a href="#">download</a>
@@ -363,27 +368,27 @@
       <div class="cart-modal" cart-modal>
         <div class="cart-modal-body" cart-modal-body>
         <div class="cart-modal-header">
-            <button class="cart-modal-btn" cart-modal-btn> <div class="left-arrow"></div> Continue Shopping</button>
+            <button type="button" class="cart-modal-btn" cart-modal-btn> <div class="left-arrow" aria-label="close shopping menu"></div> Continue Shopping</button>
         </div>
        
           <div class="cart-scroll">
             <div class="cart-scroll-body">
             <h3 class="cart-scroll-h3">nothing in your bag!</h3>
-            <p class="cart-scroll-p"> <button class="cart-scroll-btn"cart-modal-btn>Start shopping</button> to see if you qualify for free shipping </p>
+            <p class="cart-scroll-p"> <button type="button" class="cart-scroll-btn"cart-modal-btn aria-label="close shopping menu">Start shopping</button> to see if you qualify for free shipping </p>
             <div class="refund">
-              <img class="cerification-img"src ="certification.png" alt="">
+              <img class="cerification-img"src ="certification.png" alt="certification">
                 <div class="refund-text">
-                    <h3 class="refund-h3">Monogram better editing guarantee</h3>
-                    <p class="refund-p">Try Monogram Creative Console in your own workflow for 30 days. If it does not improve your editing experience, you can return it for a full refund.       </p>
+                    <h3 class="refund-h3">Rent a pet Co. guarantee</h3>
+                    <p class="refund-p">Don't like your pet? You can cancel your purchase within first week. If it doest not satisfy your expectations you can return it for a full refund.</p>
                 </div>
             </div>
             <div class="cart-scrollable-footer">
                 <h4>Secure Payments</h4>
                 <ul class="card-companies">
-                  <li><img src="apple-logo-24.png" alt=""></li>
-                  <li><img src="paypal-logo-24.png" alt=""></li>
-                  <li><img src="mastercard-logo-24.png" alt=""></li>
-                  <li><img src="visa-logo-24.png" alt=""></li>
+                  <li><img src="imgs/apple-logo-24.png" alt="apple logo"></li>
+                  <li><img src="imgs/paypal-logo-24.png" alt="paypal logo"></li>
+                  <li><img src="imgs/mastercard-logo-24.png" alt="mastercard logo"></li>
+                  <li><img src="imgs/visa-logo-24.png" alt="visa logo"></li>
 
                 </ul>
             </div>
@@ -396,13 +401,13 @@
                 <p>subtotal</p>
                 <p>$0</p>
             </div>
-            <button class="checkoutBtn">Checkout</button>
-            <button class="giftCardBtn">Gift card of discount code</button>
+            <button type="button" aria-label="confirm your purchase" class="checkout-btn">Checkout</button>
+            <button type="button" aria-label="add discount code" class="giftcard-btn">Gift card of discount code</button>
         </div>
       </div>
     </div> 
 
     </div>
-    <script src="js.js"></script>
+    <script src="JS/main.js"></script>
   </body>
 </html>
