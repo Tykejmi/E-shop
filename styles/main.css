@@ -242,7 +242,7 @@ nav ul {
 
 header {
   min-height: 100vh;
-  background: url("imgs/cat-big.jpg") no-repeat center center fixed;
+  background: url("../imgs/cat-big.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -396,7 +396,7 @@ header {
 
 .products-divide {
   min-height: 50vh;
-  background: url("imgs/dog-glasses.jpg") no-repeat center center fixed;
+  background: url("../imgs/dog-glasses.jpg") no-repeat center center fixed;
   background-size: cover;
 
 }
