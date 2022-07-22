@@ -18,13 +18,13 @@ https://tykejmi.github.io/E-shop/
 
 ## Technologies used:
 -HTML5 <br/>
--CSS3
+-CSS3 <br/>
 -JS
 
 ## Credits
 -This project was made as challange from frontendpractice.com. The task was to replicate functionality of monogramcc.com/shop/ but with changed design.
-- All images are from pexels.com (hence some of them are little thematicly weird)
-- All icons are from boxicons.com
+-All images are from pexels.com (hence some of them are little thematicly weird)
+-All icons are from boxicons.com
 
 
 
