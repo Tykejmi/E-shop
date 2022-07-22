@@ -22,8 +22,8 @@ https://tykejmi.github.io/E-shop/
 - JS
 
 ## Credits
-- This project was made as challange from [Frontendpractice.com](https://www.frontendpractice.com/projects).The task was to replicate functionality of [Monogram E-shp](https://monogramcc.com/shop/) but with changed design.
-- All images are from Pexels.com[https://www.pexels.com/] (hence some of them are little thematicly weird)
+- This project was made as challange from [Frontendpractice.com](https://www.frontendpractice.com/projects).The task was to replicate functionality of [Monogram E-shop](https://monogramcc.com/shop/) but with changed design.
+- All images are from [Pexels.com](https://www.pexels.com) (hence some of them are little thematicly weird)
 - All icons are from [Boxicons.com](https://boxicons.com/)
 
 
