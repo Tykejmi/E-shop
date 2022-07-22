@@ -375,15 +375,18 @@ header {
 .description-p {
   font-size: 1rem;
   color: var(--main-blue);
-  margin: 0 0 .5rem 0;
+  margin: 0rem 0 .5rem 0;
 }
 
 .buy-button {
+  position: absolute;
+  right: 0;
   display: none;
   color: var(--main-white);
   padding: .2rem .5rem;
   background-color: var(--main-blue);
   border-radius: 100px;
+ 
 }
 
 .product:hover .description-price {
@@ -391,6 +394,8 @@ header {
 }
 
 .product:hover .buy-button {
+  margin: 0;
+
   display: block;
 }
 
