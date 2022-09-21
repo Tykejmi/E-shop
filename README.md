@@ -14,7 +14,7 @@ This project represents front-end part for E-shop of fake company "Rent a pet Co
 - Etc...
 
 ## Try it out: 
-https://tykejmi.github.io/E-shop/
+https://app.netlify.com/sites/tykejmi-eshop/overview
 
 ## Technologies used:
 - HTML5
